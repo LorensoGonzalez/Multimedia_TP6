@@ -1,0 +1,9 @@
+body{
+    background-color: #cfc5c3;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
