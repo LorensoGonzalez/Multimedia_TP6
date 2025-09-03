@@ -34,6 +34,6 @@ img{
     object-fit:contain;
 }
 
-option{
+select{
     font-family: Cuerpo, Arial, sans-serif;
 }
