@@ -1,9 +1,33 @@
+/*-----Tipografía-----*/
+@font-face {
+    font-family: "Titulo";
+    src: url(../fonts/Font_souls_Title.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Cuerpo";
+    src: url(../fonts/Font_souls_Body.ttf) format('truetype');
+}
+
 body{
+    font-family: Cuerpo, Arial, sans-serif;
     background-color: #cfc5c3;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-family: Titulo, Arial, sans-serif;
 }
 
 form{
     display: flex;
     flex-direction: column;
     max-width: 800px;
+}
+
+img{
+    max-width: 100px;
+    image-rendering:pixelated;
 }
