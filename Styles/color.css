@@ -28,6 +28,12 @@ form{
 }
 
 img{
-    max-width: 100px;
-    image-rendering:pixelated;
+    max-height: 200px;
+    height: 100%;
+    image-rendering: pixelated;
+    object-fit:contain;
+}
+
+option{
+    font-family: Cuerpo, Arial, sans-serif;
 }
